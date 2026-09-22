@@ -6,7 +6,7 @@ function Navbar(){
         <nav className="sticky top-0 z-50 bg-white border-b">
             <div className="max-w-7xl flex justify-between items-center mx-auto px-4 py-5">
                 {/* Menu button */}
-                <button onClick={()=>setMenuOpen(!menuOpen)} className="md:hidden text-gray-500"><FiMenu size={25}/></button>
+                <button type="button" aria-label="Toggle navigation menu" onClick={()=>setMenuOpen(!menuOpen)} className="md:hidden text-gray-500"><FiMenu size={25}/></button>
                 {/* logo */}
                 <div className="flex items-center gap-2">
                     <div className="w-9 h-9 rounded-lg bg-linear-to-tr from-orange-500 via-pink-500 to-purple-600 flex items-center justify-center text-white font-bold">DS</div>
