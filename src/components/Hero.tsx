@@ -7,8 +7,8 @@ function Hero(){
                 <p className="text-gray-500 py-5 mx-auto max-w-xl md:mx-0">Explore frontend, backend, database, and tooling options,<br/>compare them side by side, and put together the stack that fits your<br/>
                     next project.</p>
                 <div className="flex flex-col justify-center gap-3 sm:flex-row md:justify-start">
-                    <button className="px-6 py-3 text-white rounded-xl bg-linear-to-r from-orange-500 via-orange-400-600 to-pink-600 hover:opacity-80">Explore Technologies</button>
-                    <button className="px-15 py-3 text-gray-500 rounded-xl border border-gray-500 hover:bg-gray-100">Learn More</button>
+                    <button className="px-6 py-3 text-white rounded-xl bg-linear-to-r from-orange-500 via-orange-400-600 to-pink-600 hover:opacity-70 transition">Explore Technologies</button>
+                    <button className="px-15 py-3 text-gray-500 rounded-xl border border-gray-500 hover:bg-gray-100 transition">Learn More</button>
                 </div>
             </div>
             <div className="flex justify-center">
