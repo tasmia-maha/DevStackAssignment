@@ -3,7 +3,7 @@ function Footer(){
     return(
         <>
         <footer className="mt-20 border-t border-gray-300 bg-white md:mx-20">
-            <div className="grid grid-cols-4 gap-5 px-6 py-5 md:gap-10 md:px-7">
+            <div className="grid grid-cols-4 gap-4 px-4 py-8 md:gap-10 md:px-7">
                 <div>
                     <div className="flex items-center gap-2">
                         <img src={logo} alt="logo" className="h-20 w-20 object-contain"/>
