@@ -34,7 +34,7 @@ function Footer(){
                 </div>
             </div>
             <div className="border-t border-gray-300">
-                <div className="flex flex-col text-gray-500 px-6 py-5 text-sm md:flex-row md:items-center md:justify-between">
+                <div className="flex flex-row text-gray-500 px-6 py-5 text-sm items-center justify-between">
                     <p>©2026 Dev Stack. All rights reserved.</p>
                     <div className="flex gap-10 ">
                         <a href="#" className="block hover:text-gray-700 text-sm">Privacy</a>
