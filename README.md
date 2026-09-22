@@ -79,5 +79,3 @@ We can pass a function from the parent component to the child through props.
 The child component can then call that function and send data back to the parent.
 
 In this project, the technology card receives an onAdd function through props and uses it to add a technology to the user's stack.
-
-> > > > > > > 65bafbfa2f32fe23471a8b23aa8558b1c6d6063f
