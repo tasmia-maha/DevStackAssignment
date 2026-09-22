@@ -76,14 +76,9 @@ function App(){
           ))}
         </div>
         <div className="rounded-2xl border border-gray-300 bg-white p-5">
-          <div className="flex items-center justify-between">
             <h3 className="text-xl font-bold">Your Stack</h3>
-            {
-              selectedTechnologies.length>0 && (
-                <button onClick={handleRemoveAll} className="text-sm font-medium text-red-500 hover:text-red-600">Remove All</button>
-              )
-            }
-          </div>
+            
+          
           {selectedTechnologies.length==0?(
             <div className="mt-8 flex h-20 items-center justify-center rounded-2xl border-2 border-dashed border-gray-300 ">
             <p className="text-sm text-gray-300">Your Stack is empty</p>
@@ -100,6 +95,7 @@ function App(){
               </div>
               <button onClick={()=>handleRemove(technology)} className="text-gray-400 hover:text-red-500">✕</button>
             </div>)}
+            <button onClick={handleRemoveAll} className="mt-4 w-full rounded-xl text-sm py-2 transition font-medium bg-red-600 text-white hover:bg-gray-400">Remove All</button>
           </div>)
           }
         </div>
