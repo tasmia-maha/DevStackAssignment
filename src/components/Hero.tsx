@@ -1,3 +1,4 @@
+import bannerStack from "../assets/banner-stack.png";
 function Hero(){
     return(
         <section className="bg-white">
@@ -12,7 +13,7 @@ function Hero(){
                 </div>
             </div>
             <div className="flex justify-center">
-                <img src="/src/assets/banner-stack.png" alt="Development Stack" className="w-full max-w-md object-contain" />
+                <img src={bannerStack} alt="Development Stack" className="w-full max-w-md object-contain" />
             </div>
             </div>
         </section>
