@@ -90,7 +90,7 @@ The application will then be available on the local development URL shown in you
 
 ## 🌐 Live Demo
 
-Live demo will be added soon.
+https://dev-stack-assignment-one.vercel.app/
 
 ## 📁 Project Structure
 
